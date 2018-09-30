@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var button = findViewById<Button>(R.id.btn_push)
+        var button = findViewById<Button>(R.id.btn_add)
         var reset = findViewById<Button>(R.id.btn_reset)
         var add_counter = findViewById<TextView>(R.id.add_counter)
 
